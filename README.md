@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-sqrtpi/tags). For example,
+
+```javascript
 import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@v0.0.1-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var v = sqrtpi( -4.0 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@v0.0.1-esm/index.mjs';
+import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@esm/index.mjs';
 
 var x;
 var i;
