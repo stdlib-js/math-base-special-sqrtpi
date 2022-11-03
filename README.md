@@ -31,7 +31,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@esm/index.mjs';
+import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@v0.0.1-esm/index.mjs';
 ```
 
 #### sqrtpi( x )
@@ -76,7 +76,7 @@ var v = sqrtpi( -4.0 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@esm/index.mjs';
+import sqrtpi from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@v0.0.1-esm/index.mjs';
 
 var x;
 var i;
