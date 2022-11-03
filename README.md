@@ -24,38 +24,30 @@ limitations under the License.
 
 > Compute the principal [square root][@stdlib/math/base/special/sqrt] of the product of π and a positive number.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-sqrtpi
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-sqrtpi = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var sqrtpi = require( 'path/to/vendor/umd/math-base-special-sqrtpi/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.sqrtpi;
-})();
-</script>
+var sqrtpi = require( '@stdlib/math-base-special-sqrtpi' );
 ```
 
 #### sqrtpi( x )
@@ -93,14 +85,9 @@ var v = sqrtpi( -4.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
+var sqrtpi = require( '@stdlib/math-base-special-sqrtpi' );
 
 var x;
 var i;
@@ -109,11 +96,6 @@ for ( i = 0; i < 100; i++ ) {
     x = discreteUniform( 0, 100 );
     console.log( 'sqrtpi(%d) = %d', x, sqrtpi( x ) );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -167,8 +149,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-sqrtpi.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-sqrtpi
 
-[test-image]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml/badge.svg?branch=v0.0.1
+[test-url]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml?query=branch:v0.0.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-sqrtpi/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-sqrtpi?branch=main
@@ -197,7 +179,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-sqrtpi/main/LICENSE
 
-[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt/tree/umd
+[@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt
 
 </section>
 
