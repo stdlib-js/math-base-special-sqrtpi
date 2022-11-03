@@ -33,6 +33,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+sqrtpi = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-sqrtpi/tags). For example,
+
+```javascript
 sqrtpi = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@v0.0.1-umd/browser.js' )
 ```
 
@@ -45,7 +50,7 @@ var sqrtpi = require( 'path/to/vendor/umd/math-base-special-sqrtpi/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@v0.0.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -98,7 +103,7 @@ var v = sqrtpi( -4.0 );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@v0.0.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sqrtpi@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
