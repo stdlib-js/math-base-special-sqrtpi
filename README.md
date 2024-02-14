@@ -258,8 +258,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-sqrtpi.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-sqrtpi
 
-[test-image]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/math-base-special-sqrtpi/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-sqrtpi/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-sqrtpi?branch=main
@@ -294,8 +294,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/sqrt]: https://github.com/stdlib-js/math-base-special-sqrt
 
 <!-- <related-links> -->
-
-
 
 <!-- </related-links> -->
 
