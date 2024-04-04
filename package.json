@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-sqrtpi",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Compute the principal square root of the product of π and a positive double-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
